@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be39117c-dea2-4613-921a-d0135b6075b0" name="变更" comment="BinarySearch">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sunshinewzy/algorithms/fundamentals/stacks_and_queues/FixedCapacityStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/sunshinewzy/algorithms/fundamentals/stacks_and_queues/FixedCapacityStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="be39117c-dea2-4613-921a-d0135b6075b0" name="变更" comment="定容栈 FixedCapacityStack&#10;Dijkstra 的双栈算术表达式求值算法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sunshinewzy/algorithms/fundamentals/stacks_and_queues/LinkedListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/sunshinewzy/algorithms/fundamentals/stacks_and_queues/LinkedListStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/sunshinewzy/algorithms/fundamentals/stacks_and_queues/FixedCapacityStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/sunshinewzy/algorithms/fundamentals/stacks_and_queues/FixedCapacityStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/sunshinewzy/algorithms/fundamentals/stacks_and_queues/FixedCapacityStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/sunshinewzy/algorithms/fundamentals/stacks_and_queues/FixedCapacityStackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +78,13 @@
       <recent name="io.github.sunshinewzy.algorithms.fundamentals.programming_model" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.FixedCapacityStackTest">
-    <configuration name="BinarySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.sunshinewzy.algorithms.fundamentals.programming_model.BinarySearchTest" />
+  <component name="RunManager" selected="应用程序.LinkedListStackTest">
+    <configuration name="FixedCapacityStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.sunshinewzy.algorithms.fundamentals.stacks_and_queues.FixedCapacityStackTest" />
       <module name="Algorithms.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.sunshinewzy.algorithms.fundamentals.programming_model.*" />
+          <option name="PATTERN" value="io.github.sunshinewzy.algorithms.fundamentals.stacks_and_queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FixedCapacityStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.sunshinewzy.algorithms.fundamentals.stacks_and_queues.FixedCapacityStackTest" />
+    <configuration name="LinkedListStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.sunshinewzy.algorithms.fundamentals.stacks_and_queues.LinkedListStackTest" />
       <module name="Algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.LinkedListStackTest" />
         <item itemvalue="Gradle.FixedCapacityStackTest.stack" />
         <item itemvalue="Gradle.FixedCapacityStackTest" />
         <item itemvalue="应用程序.FixedCapacityStackTest" />
         <item itemvalue="Gradle.FixedCapacityStackTest.forEach" />
-        <item itemvalue="应用程序.BinarySearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +197,7 @@
       <workItem from="1679644781392" duration="1193000" />
       <workItem from="1679822078274" duration="854000" />
       <workItem from="1679827845543" duration="3246000" />
-      <workItem from="1679832173425" duration="342000" />
+      <workItem from="1679832173425" duration="1767000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679391682725</created>
@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679404482090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="定容栈 FixedCapacityStack&#10;Dijkstra 的双栈算术表达式求值算法">
+      <created>1679832563918</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679832563918</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +245,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add library algs4.jar" />
     <MESSAGE value="BinarySearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinarySearch" />
+    <MESSAGE value="定容栈 FixedCapacityStack&#10;Dijkstra 的双栈算术表达式求值算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="定容栈 FixedCapacityStack&#10;Dijkstra 的双栈算术表达式求值算法" />
   </component>
 </project>

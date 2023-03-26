@@ -14,7 +14,7 @@ public class FixedCapacityStack<T> implements Iterable<T> {
 	public FixedCapacityStack(int capacity) {
 		items = (T[]) new Object[capacity];
 	}
-	
+	  
 	public void push(T item) {
 		// 动态调整数组大小
 		if (size == items.length)

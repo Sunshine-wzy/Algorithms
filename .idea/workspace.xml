@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be39117c-dea2-4613-921a-d0135b6075b0" name="变更" comment="BinarySearch">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sunshinewzy/algorithms/fundamentals/programming_model/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/sunshinewzy/algorithms/fundamentals/programming_model/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/sunshinewzy/algorithms/fundamentals/programming_model/StdInTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sunshinewzy/algorithms/fundamentals/stacks_and_queues/FixedCapacityStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/sunshinewzy/algorithms/fundamentals/stacks_and_queues/FixedCapacityStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,48 +49,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "E:/Java/Workspace/AnotherPrizeDraw",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "copyright",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Java/Workspace/AnotherPrizeDraw&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.sunshinewzy.algorithms.fundamentals.stacks_and_queues" />
       <recent name="io.github.sunshinewzy.algorithms.fundamentals.programming_model" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.StdInTest">
-    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.sunshinewzy.algorithms.fundamentals.programming_model.ArrayTest" />
-      <module name="Algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.sunshinewzy.algorithms.fundamentals.programming_model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.FixedCapacityStackTest">
     <configuration name="BinarySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.sunshinewzy.algorithms.fundamentals.programming_model.BinarySearchTest" />
       <module name="Algorithms.test" />
@@ -103,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StdInTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.sunshinewzy.algorithms.fundamentals.programming_model.StdInTest" />
+    <configuration name="FixedCapacityStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.sunshinewzy.algorithms.fundamentals.stacks_and_queues.FixedCapacityStackTest" />
       <module name="Algorithms.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.sunshinewzy.algorithms.fundamentals.programming_model.*" />
+          <option name="PATTERN" value="io.github.sunshinewzy.algorithms.fundamentals.stacks_and_queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest.array" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FixedCapacityStackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -129,7 +118,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;io.github.sunshinewzy.algorithms.fundamentals.programming_model.ArrayTest.array&quot;" />
+            <option value="&quot;io.github.sunshinewzy.algorithms.fundamentals.stacks_and_queues.FixedCapacityStackTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -139,7 +128,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StdInTest.stdIn" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FixedCapacityStackTest.forEach" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -152,7 +141,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;io.github.sunshinewzy.algorithms.fundamentals.programming_model.StdInTest.stdIn&quot;" />
+            <option value="&quot;io.github.sunshinewzy.algorithms.fundamentals.stacks_and_queues.FixedCapacityStackTest.forEach&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FixedCapacityStackTest.stack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;io.github.sunshinewzy.algorithms.fundamentals.stacks_and_queues.FixedCapacityStackTest.stack&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FixedCapacityStackTest.stack" />
+        <item itemvalue="Gradle.FixedCapacityStackTest" />
+        <item itemvalue="应用程序.FixedCapacityStackTest" />
+        <item itemvalue="Gradle.FixedCapacityStackTest.forEach" />
         <item itemvalue="应用程序.BinarySearchTest" />
-        <item itemvalue="应用程序.ArrayTest" />
-        <item itemvalue="Gradle.ArrayTest.array" />
-        <item itemvalue="应用程序.StdInTest" />
-        <item itemvalue="Gradle.StdInTest.stdIn" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +193,11 @@
       <option name="presentableId" value="Default" />
       <updated>1679390119018</updated>
       <workItem from="1679390120088" duration="1860000" />
-      <workItem from="1679398950065" duration="5121000" />
+      <workItem from="1679398950065" duration="6055000" />
+      <workItem from="1679644781392" duration="1193000" />
+      <workItem from="1679822078274" duration="854000" />
+      <workItem from="1679827845543" duration="3246000" />
+      <workItem from="1679832173425" duration="342000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679391682725</created>
@@ -204,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679400373505</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="BinarySearch">
+      <created>1679404482090</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679404482090</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
